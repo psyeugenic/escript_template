@@ -1,0 +1,12 @@
+{application, escript_template,
+ [
+  {description, "Escript template"},
+  {vsn, "1.0.0"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { egilmoj_app, []}},
+  {env, []}
+ ]}.
